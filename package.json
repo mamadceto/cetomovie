@@ -1,12 +1,12 @@
 {
-  "name": "asia-api",
+  "name": "ceto-api",
   "version": "1.0.0",
-  "description": "the api for asiafilm app",
+  "description": "the api for cetomovie app",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "Hossein Pira",
+  "author": "ceto",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.5.1",
