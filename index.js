@@ -12,10 +12,10 @@ app.get('/list', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 
