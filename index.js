@@ -27,10 +27,10 @@ app.get('/search', async (req, res) => {
         if (response.status === 200 && response.data && response.data.posters.length > 0) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 
@@ -42,10 +42,10 @@ app.get('/get', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 
@@ -56,10 +56,10 @@ app.get('/MAction', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MAdventure', async (req, res) => {
@@ -68,10 +68,10 @@ app.get('/MAdventure', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MAnimation', async (req, res) => {
@@ -80,10 +80,10 @@ app.get('/MAnimation', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MApocalypse', async (req, res) => {
@@ -92,10 +92,10 @@ app.get('/MApocalypse', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MBest5m', async (req, res) => {
@@ -104,10 +104,10 @@ app.get('/MBest5m', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MBiographydiary', async (req, res) => {
@@ -116,10 +116,10 @@ app.get('/MBiographydiary', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MChinaJapan', async (req, res) => {
@@ -128,10 +128,10 @@ app.get('/MChinaJapan', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MClassic', async (req, res) => {
@@ -140,10 +140,10 @@ app.get('/MClassic', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MComedy', async (req, res) => {
@@ -152,10 +152,10 @@ app.get('/MComedy', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MCool', async (req, res) => {
@@ -164,10 +164,10 @@ app.get('/MCool', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MCriminal', async (req, res) => {
@@ -176,10 +176,10 @@ app.get('/MCriminal', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MDocumentary', async (req, res) => {
@@ -188,10 +188,10 @@ app.get('/MDocumentary', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MDownloadsMost', async (req, res) => {
@@ -200,10 +200,10 @@ app.get('/MDownloadsMost', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MDrama', async (req, res) => {
@@ -212,10 +212,10 @@ app.get('/MDrama', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MExciting', async (req, res) => {
@@ -224,10 +224,10 @@ app.get('/MExciting', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MFamily', async (req, res) => {
@@ -236,10 +236,10 @@ app.get('/MFamily', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MFantasy', async (req, res) => {
@@ -248,10 +248,10 @@ app.get('/MFantasy', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MFavorites', async (req, res) => {
@@ -260,10 +260,10 @@ app.get('/MFavorites', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MHistorical', async (req, res) => {
@@ -272,10 +272,10 @@ app.get('/MHistorical', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MIndian', async (req, res) => {
@@ -284,10 +284,10 @@ app.get('/MIndian', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MKorean', async (req, res) => {
@@ -296,10 +296,10 @@ app.get('/MKorean', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MMusic', async (req, res) => {
@@ -308,10 +308,10 @@ app.get('/MMusic', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MMystery', async (req, res) => {
@@ -320,10 +320,10 @@ app.get('/MMystery', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MNewseries', async (req, res) => {
@@ -332,10 +332,10 @@ app.get('/MNewseries', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MOscar2023', async (req, res) => {
@@ -344,10 +344,10 @@ app.get('/MOscar2023', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MRomantic', async (req, res) => {
@@ -356,10 +356,10 @@ app.get('/MRomantic', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MScary', async (req, res) => {
@@ -368,10 +368,10 @@ app.get('/MScary', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MScienceFiction', async (req, res) => {
@@ -380,10 +380,10 @@ app.get('/MScienceFiction', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MSpecial', async (req, res) => {
@@ -392,10 +392,10 @@ app.get('/MSpecial', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MSports', async (req, res) => {
@@ -404,10 +404,10 @@ app.get('/MSports', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MSuggested', async (req, res) => {
@@ -416,10 +416,10 @@ app.get('/MSuggested', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MTop250', async (req, res) => {
@@ -428,10 +428,10 @@ app.get('/MTop250', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MTurkish', async (req, res) => {
@@ -440,10 +440,10 @@ app.get('/MTurkish', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MWar', async (req, res) => {
@@ -452,10 +452,10 @@ app.get('/MWar', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MWeeklyoffer', async (req, res) => {
@@ -464,10 +464,10 @@ app.get('/MWeeklyoffer', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 app.get('/MWestern', async (req, res) => {
@@ -476,10 +476,10 @@ app.get('/MWestern', async (req, res) => {
         if (response.status === 200 && response.data) {
             res.json(response.data);
         } else {
-            res.status(500).send('Error');
+            res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
         }
     } catch (error) {
-        res.status(500).send('Error');
+        res.status(500).send('فیلم مورد نظر  در دیتابیس پیدا نشد');
     }
 });
 
