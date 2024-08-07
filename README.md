@@ -45,14 +45,14 @@ To run the build locally, follow these steps:
 4. **Start the application**:
 
 - To start the application locally, use :
-```bash
-npm start
-```
+  ```bash
+  npm start
+  ```
 
 - Alternatively, you can run the application with Node.js:
-```bash
-node index.js
-```
+  ```bash
+  node index.js
+  ```
 
 5. **Deploy on Vercel or Render**: 
 
