@@ -29,30 +29,30 @@ To run the build locally, follow these steps:
 
 1. **Clone the repository**:
 ```bash
-   git clone https://github.com/your-      repo-link.git
+git clone https://github.com/your-      repo-link.git
 ```
 2. **Navigate to the project directory**:
 
- ```bash
-    cd CeToMovie
- ```
+```bash
+cd CeToMovie
+```
 3. **dependencies**:
 
- ```bash
-    npm install
- ```
+```bash
+npm install
+```
 
 4. **Start the application**:
 
 - To start the application locally, use :
-  ```bash
-  npm start
-  ```
+```bash
+npm start
+```
 
 - Alternatively, you can run the application with Node.js:
-  ```bash
-  node index.js
-  ```
+```bash
+node index.js
+```
 
 5. **Deploy on Vercel or Render**: 
 
