@@ -23,18 +23,40 @@ You can see a live demo of the website at [CeToMovie Live Demo](https://ceto.onr
 
 This repository contains the build output of the CeToMovie website. To view the source code or contribute to the development, please visit the [source repository](https://github.com/your-repo-link).
 
-## Getting Started
+## Installation
 
 To run the build locally, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-repo-link.git
+```bash
+   git clone https://github.com/your-      repo-link.git
+```
+2. **Navigate to the project directory**:
 
-## Installation
+ ```bash
+    cd CeToMovie
+ ```
+3. **dependencies**:
 
-To deploy and run the CeToMovie build locally or on platforms like Vercel or Render, follow these steps:
+ ```bash
+    npm install
+ ```
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-repo-link.gitNavigate to the project directory:cd path-to-project-directoryInstall dependencies:npm installStart the application:To start the application locally, use:npm startAlternatively, you can run the application with Node.js:node index.jsDeploy on Vercel or Render:Vercel: Import the repository to Vercel, and it will automatically detect and build your project.Render: Create a new web service and connect it to your repository. Render will build and deploy the project automatically.For detailed deployment instructions, refer to the respective platform's documentation.
+4. **Start the application**:
+
+- To start the application locally, use :
+```bash
+npm start
+```
+
+- Alternatively, you can run the application with Node.js:
+```bash
+node index.js
+```
+
+5. **Deploy on Vercel or Render**: 
+
+**Vercel**: Import the repository to Vercel, and it will automatically detect and build your project.
+
+**Render**: Create a new web service and connect it to your repository. Render will build and deploy the project automatically.
+
