@@ -15,6 +15,12 @@ CeToMovie is a dynamic movie and series website built with Vite and Vue.js. It o
 - **Beautiful Download Page**: Access and download content with an aesthetically pleasing interface.
 - **Fully Responsive**: Enjoy a seamless experience on desktops, tablets, and smartphones.
 
+## Technologies Used
+
+- vite
+- vua
+- JavaScript
+
 ## Live Demo
 
 You can see a live demo of the website at [CeToMovie Live Demo](https://ceto.onrender.com).
