@@ -27,7 +27,7 @@ You can see a live demo of the website at [CeToMovie Live Demo](https://ceto.onr
 
 ## Build
 
-This repository contains the build output of the CeToMovie website. To view the source code or contribute to the development, please visit the [source repository](https://github.com/your-repo-link).
+This repository contains the build output of the CeToMovie website. To view the source code or contribute to the development, please visit the [source repository](https://github.com/CeToMovie-SC). (Coming Soon)
 
 ## Installation
 
@@ -35,7 +35,7 @@ To run the build locally, follow these steps:
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/your-      repo-link.git
+git clone https://github.com/CeToMovie-SC
 ```
 2. **Navigate to the project directory**:
 
